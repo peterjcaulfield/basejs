@@ -1,0 +1,25 @@
+{
+  "name": "basejs",
+  "version": "0.1.0",
+  "description": "base setup for javascript apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterjcaulfield/basejs.git"
+  },
+  "author": "peter caulfield <peterjcaulfield@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterjcaulfield/basejs/issues"
+  },
+  "homepage": "https://github.com/peterjcaulfield/basejs#readme",
+  "devDependencies": {
+    "grunt": "latest",
+    "mocha": "latest",
+    "load-grunt-config": "latest",
+    "load-grunt-tasks": "latest"
+  }
+}
