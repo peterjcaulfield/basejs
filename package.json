@@ -18,13 +18,13 @@
   "homepage": "https://github.com/peterjcaulfield/basejs#readme",
   "devDependencies": {
     "grunt": "latest",
-    "mocha": "latest",
+    "jasmine": "latest",
     "protractor": "latest",
     "cucumber": "latest",
     "pm2": "latest",
     "load-grunt-config": "latest",
     "load-grunt-tasks": "latest",
-    "grunt-blanket": "latest",
-    "grunt-mocha-test": "latest"
+    "grunt-contrib-jasmine": "latest",
+    "grunt-template-jasmine-istanbul": "latest"
   }
 }

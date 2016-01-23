@@ -1,3 +1,3 @@
 module.exports = function(grunt) {
-  grunt.registerTask('unit', ['mochaTest']);
+  grunt.registerTask('unit', ['jasmine:test']);
 };
