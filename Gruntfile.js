@@ -1,14 +1,15 @@
 module.exports = function(grunt) {
 
- var config = grunt.util._.extend({},
+  var path = require('path');
+
+  var config = grunt.util._.extend({},
     require('load-grunt-config')(grunt, {
-        configPath: './grunt/tasks/options',
-        loadGruntTasks: false,
+        configPath: path.join(__dirname, 'grunt/tasks/options'),
+        loadGruntTasks: true,
         init: false
       })
   );
-
-  grunt.loadTasks('./grunt/tasks');
+  grunt.loadTasks('grunt/tasks');
   
   grunt.initConfig(config);   
 };
