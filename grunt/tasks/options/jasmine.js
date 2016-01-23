@@ -13,7 +13,7 @@ module.exports = {
       templateOptions: {
         coverage: 'coverage/coverage.json',
         report: {
-          type: 'html',
+          type: 'text-summary',
           options: {
             dir: 'coverage'
           }
