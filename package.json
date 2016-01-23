@@ -21,7 +21,10 @@
     "mocha": "latest",
     "protractor": "latest",
     "cucumber": "latest",
+    "pm2": "latest",
     "load-grunt-config": "latest",
-    "load-grunt-tasks": "latest"
+    "load-grunt-tasks": "latest",
+    "grunt-blanket": "latest",
+    "grunt-mocha-test": "latest"
   }
 }
