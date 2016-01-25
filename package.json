@@ -21,10 +21,13 @@
     "jasmine": "latest",
     "protractor": "latest",
     "cucumber": "latest",
+    "protractor-cucumber-framework": "latest",
     "pm2": "latest",
     "load-grunt-config": "latest",
     "load-grunt-tasks": "latest",
     "grunt-contrib-jasmine": "latest",
-    "grunt-template-jasmine-istanbul": "latest"
+    "grunt-template-jasmine-istanbul": "latest",
+    "grunt-exec": "latest",
+    "grunt-protractor-runner": "latest"
   }
 }
