@@ -1,8 +1,8 @@
 module.exports = {
-  pm2_start: {
-    cmd: './node_modules/pm2/bin/pm2 start server/server.json'
+  wiremock_start: {
+    cmd: './node_modules/pm2/bin/pm2 flush && ./node_modules/pm2/bin/pm2 start server/wiremock/pm2.json'
   },
-  pm2_stop: {
+  wiremock_stop: {
     cmd: './node_modules/pm2/bin/pm2 flush && ./node_modules/pm2/bin/pm2 delete all'
   }
 };

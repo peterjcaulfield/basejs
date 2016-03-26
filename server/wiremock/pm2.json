@@ -7,12 +7,12 @@
         "script": "java",
         "args": [
             "-jar", 
-            "./server/bin/wiremock-1.57-standalone.jar",
-            "--root-dir=./server",
+            "./server/wiremock/bin/wiremock-1.57-standalone.jar",
+            "--root-dir=./server/wiremock",
             "--port=9999"
         ],
         "node-args": [],
-        "out_file": ".pm2/stdout.log",
-        "error_file": ".pm2/error.log"
+        "out_file": "./server/wiremock/logs/stdout.log",
+        "error_file": "./server/wiremock/logs/error.log"
   }]  
 }
