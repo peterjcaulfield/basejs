@@ -1,14 +1,14 @@
 
 var path = require('path')
 var webpack = require('webpack')
-
+var config = require('./package.json')
 module.exports = {
   entry: [
     './src/index'
   ],
   output: {
     path: path.join(__dirname, 'build'),
-    filename: 'bundle.js',
+    filename: `bundle.${config.version}.js`,
     publicPath: '/static/'
   },
   plugins: [
